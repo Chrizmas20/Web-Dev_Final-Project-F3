@@ -1,0 +1,149 @@
+body {
+	background-image: url(../img/456.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center-content {
+	scale: .8;
+    padding: 15px;
+    background: linear-gradient(to bottom, rgba(27, 88, 163, 0.541), rgba(13, 129, 182, 0.541));
+    border: 3px solid white;
+    border-radius: 20px;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-47%, -45%);
+}
+
+h1 {
+	color: white;
+	margin: auto;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 52px;
+	text-align: center;
+	padding: 10px;
+	border: 5px;
+}
+
+.thanks {
+    border-radius: 10px;
+	color: white;
+	margin: auto;
+	font-family: 'Segoe UI';
+	font-size: 30px;
+	text-align: center;
+	border: 5px;
+	font-weight: bold;
+	padding: 20px;
+	text-shadow: 4px 4px 5px black;
+}
+
+nav {
+	color: white;
+	margin: auto;
+	font-family: Tahoma;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	border: 5px;
+	word-spacing: 90px;
+}
+
+form {
+    background: linear-gradient(to bottom, rgba(27, 88, 163, 0.541), rgba(13, 129, 182, 0.541));
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    align-self: flex-start;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    resize: none;
+    font: Verdana;
+}
+
+input[type="text"] {
+    width: 250px;
+    font: Verdana;
+    height: 30px;
+}
+
+.label {
+    color: white;
+    font-family: 'Tahoma';
+    font-size: 20px;
+}
+
+.center {
+    position: relative;
+    left: 42%;
+    font-size: 20px;
+}
+
+.button-submit {
+    color: white;
+	padding: 10px;
+	border-radius: 10px;
+    max-width: fit-content;
+    font-size: 25px;
+    font-family: 'Tahoma';
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+
+.button-submit:hover {
+	color: white;
+	background: black;
+	cursor: default;
+}
+
+.button {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.button-selected {
+    color: black;
+    text-decoration: none;
+	background: white;
+	padding: 10px;
+	border-radius: 10px;
+    pointer-events: none;
+}
+
+.button:hover {
+	color: black;
+	background: white;
+	cursor: pointer;
+}
+.nav2 {
+	color: white;
+	margin: auto;
+	font-family: Tahoma;
+	font-size: 30px;
+	text-align: center;
+	padding: 10px;
+	border: 5px;
+	word-spacing: 50px;
+}
+.center-content2 {
+	scale: .8;
+    padding: 15px;
+    background: linear-gradient(to bottom, rgba(27, 88, 163, 0.68), rgba(13, 129, 182, 0.8));
+    border: 3px solid white;
+    border-radius: 20px;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-47%, -45%);
+}

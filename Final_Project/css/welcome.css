@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient( rgb(112, 150, 255) -4.3%, rgb(194, 22, 22) 101.8%) ;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.center-content {
+    padding: 30px;
+    background-image: url(../img/name.png);
+    border-radius: 20px;
+    position: absolute;
+    top: 49%;
+    left: 42%;
+    transform: translate(-33%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.main-content-a {    
+    font-family: 'Rockwell';
+    font-size: 60px;
+    text-shadow: 3px 3px 5px black;
+}
+
+.main-content-b {
+    font-family: 'Tahoma';
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
+.main-content-c {
+    font-family: 'Tahoma';
+    font-size: 25px;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.main-content-d {
+    color: rgb(255, 255, 255);
+    background: linear-gradient( rgba(128, 117, 141, 0.3) -4.3%, rgb(122, 101, 149, 0.3) 101.8%) ;
+    border-radius: 25px;
+
+}
+
+.home {
+    padding-top: 30px;
+	font-family: 'Gill Sans MT';
+	font-size: 35px;
+	margin: auto;
+	text-align: center;
+	max-width: fit-content;
+    text-shadow: 3px 3px 5px black;
+    
+}
+
+.button {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+    background: white;
+}
+
+.button:hover {
+	color: rgb(255, 255, 255);
+	background: black;
+	cursor: pointer;
+}
+.foot{
+	top: 90%;
+	position: absolute;
+	font-size: 20px;
+	color: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    text-shadow: 4px 4px 5px black;
+    height: 20px;
+    text-decoration: none;
+    left: 25%;
+
+}
